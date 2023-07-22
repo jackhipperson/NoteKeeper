@@ -9,7 +9,7 @@ function App() {
     <div>
       <Header />
       <Pad />
-      <Notes notes={notes} />
+      <Note notes={notes} />
     </div>
   );
 }

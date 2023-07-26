@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Pad from "./Pad";
+import Notes from "./Notes";
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
     <div>
       <Header />
       <Pad />
-      <Note notes={notes} />
+      <Notes notes={notes} />
     </div>
   );
 }
